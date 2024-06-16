@@ -1,0 +1,40 @@
+/* General Styles */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.responsive-image {
+  max-width: 100%;
+  height: 100vh;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+  /* border-radius: 10px; */
+}
+
+.map-link {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  background-color: #007bff;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.map-link:hover {
+  background-color: #0056b3;
+}
